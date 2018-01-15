@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dangam.namu.web.dao.UserMapper">
+
+	<select id="selectToday" resultType="java.lang.String">
+		select now()
+	</select>
+	
+	<select id="test" resultType="hashmap">
+		select * from BasicData
+	</select>
+	
+	<!--	ID 중복확인 	-->
+	<select id="confirmId" resultType="int">
+		SELECT COUNT(user_id) 
+		FROM Users 
+		WHERE user_id = #{userId}
+	</select>
+	
+	<!--	ID 찾기 	-->
+	<select id="searchId" resultType="String" parameterType = "java.util.HashMap">
+		SELECT 	user_id
+		FROM 	Users 
+		WHERE 	user_name = #{userNm}
+		AND  	user_tel  = #{userTel}
+	</select>
+	
+		<!--	test 	-->
+	<select id="searchPw" resultType="String" parameterType = "String">
+		SELECT 	user_pw
+		FROM 	Users 
+		WHERE 	user_id = #{id}
+		
+	</select>
+
+	
+		<!--	회원가입 정보 DB insert 	-->
+	<insert id="insertjoinUsersData" parameterType = "java.util.HashMap">
+		INSERT INTO Users
+		(
+			user_id,
+			user_division,
+			user_companyNm,
+			user_ceoNm,
+			user_companyNum,
+			user_name,
+			user_pw,
+			user_tel,
+			user_email,
+			user_emailDiv,
+			user_address,
+			user_logo,
+			user_joinDt,
+			user_addressNum,
+			user_role
+		)
+		VALUES
+		(
+			#{userId},
+			#{division},
+			#{companyNm},
+			#{ceoNm},
+			#{companyNum},
+			#{userNm},
+			#{user_pw},
+			#{tel},
+			#{email},
+			#{emailDiv},
+			#{address},
+			#{realFilePath},
+			SYSDATE(),
+			#{addressNum},
+			#{user_role}
+		)
+	</insert>
+	
+	<select id="findOne" resultType="hashmap">
+		SELECT	*
+		FROM	Users
+		WHERE	user_id = #{userId}
+	</select>
+
+</mapper>

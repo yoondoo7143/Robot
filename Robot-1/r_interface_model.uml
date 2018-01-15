@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kfbWEIPiEeelk971CjLCCw" name="r_interface_model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_kiPZgIPiEeelk971CjLCCw" name="Interaction1">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_XnbrwIPpEeeeps3HyKlvXA">
+      <body>분석 진행</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_4obAcIPpEeeeps3HyKlvXA">
+      <body>[ 전송 데이터 ]&#xD;
+ - 데이터 컬럼중 타겟 컬럼값.&#xD;
+ - 알고리즘 종류&#xD;
+ - 표시가능한 차트&#xD;
+ - 분석 결과 데이터 포멧&#xD;
+ - R에서 필요한 설정값등 (추가 예정)</body>
+    </ownedComment>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_6OfRQIPnEeeAlJyajLfSow" name="Main System" coveredBy="_4iiQUIPoEeeeps3HyKlvXA _ANfJ0IPpEeeeps3HyKlvXA _vBWYgYPpEeeeps3HyKlvXA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_6a9nAIPnEeeAlJyajLfSow" name="DataBase(Shared Table)" coveredBy="_ANgX8IPpEeeeps3HyKlvXA _G8mGIIPpEeeeps3HyKlvXA _p7vwoYPpEeeeps3HyKlvXA _vBW_kIPpEeeeps3HyKlvXA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_-xGg0IPnEeeAlJyajLfSow" name="R_Module" coveredBy="_4ii3YIPoEeeeps3HyKlvXA _G8lfEIPpEeeeps3HyKlvXA _PY4V8IPpEeeeps3HyKlvXA _PY0EgIPpEeeeps3HyKlvXA _PY4V8YPpEeeeps3HyKlvXA _p7vwoIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4iiQUIPoEeeeps3HyKlvXA" name="Message1SendEvent" covered="_6OfRQIPnEeeAlJyajLfSow" message="_4iP8cIPoEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ANfJ0IPpEeeeps3HyKlvXA" name="Message1SendEvent" covered="_6OfRQIPnEeeAlJyajLfSow" message="_ANdUoIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4ii3YIPoEeeeps3HyKlvXA" name="Message1ReceiveEvent" covered="_-xGg0IPnEeeAlJyajLfSow" message="_4iP8cIPoEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ANgX8IPpEeeeps3HyKlvXA" name="Message1ReceiveEvent" covered="_6a9nAIPnEeeAlJyajLfSow" message="_ANdUoIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G8lfEIPpEeeeps3HyKlvXA" name="Message1SendEvent" covered="_-xGg0IPnEeeAlJyajLfSow" message="_G8kQ8IPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G8mGIIPpEeeeps3HyKlvXA" name="Message1ReceiveEvent" covered="_6a9nAIPnEeeAlJyajLfSow" message="_G8kQ8IPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PY4V8IPpEeeeps3HyKlvXA" name="ActionExecutionSpecification1Start" covered="_-xGg0IPnEeeAlJyajLfSow" execution="_PY0EgIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_PY0EgIPpEeeeps3HyKlvXA" name="ActionExecutionSpecification1" covered="_-xGg0IPnEeeAlJyajLfSow" finish="_PY4V8YPpEeeeps3HyKlvXA" start="_PY4V8IPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PY4V8YPpEeeeps3HyKlvXA" name="ActionExecutionSpecification1Finish" covered="_-xGg0IPnEeeAlJyajLfSow" execution="_PY0EgIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_p7vwoIPpEeeeps3HyKlvXA" name="Message1SendEvent" covered="_-xGg0IPnEeeAlJyajLfSow" message="_p7vJkIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_p7vwoYPpEeeeps3HyKlvXA" name="Message1ReceiveEvent" covered="_6a9nAIPnEeeAlJyajLfSow" message="_p7vJkIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vBWYgYPpEeeeps3HyKlvXA" name="Message1SendEvent" covered="_6OfRQIPnEeeAlJyajLfSow" message="_vBWYgIPpEeeeps3HyKlvXA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vBW_kIPpEeeeps3HyKlvXA" name="Message1ReceiveEvent" covered="_6a9nAIPnEeeAlJyajLfSow" message="_vBWYgIPpEeeeps3HyKlvXA"/>
+    <message xmi:type="uml:Message" xmi:id="_4iP8cIPoEeeeps3HyKlvXA" name="데이터 분석 의뢰" messageSort="asynchCall" receiveEvent="_4ii3YIPoEeeeps3HyKlvXA" sendEvent="_4iiQUIPoEeeeps3HyKlvXA"/>
+    <message xmi:type="uml:Message" xmi:id="_ANdUoIPpEeeeps3HyKlvXA" name="분석 의뢰 데이터 저장" messageSort="asynchCall" receiveEvent="_ANgX8IPpEeeeps3HyKlvXA" sendEvent="_ANfJ0IPpEeeeps3HyKlvXA"/>
+    <message xmi:type="uml:Message" xmi:id="_G8kQ8IPpEeeeps3HyKlvXA" name="분석 대상 데이터 로딩" messageSort="asynchCall" receiveEvent="_G8mGIIPpEeeeps3HyKlvXA" sendEvent="_G8lfEIPpEeeeps3HyKlvXA"/>
+    <message xmi:type="uml:Message" xmi:id="_p7vJkIPpEeeeps3HyKlvXA" name="분석 결과 저장" messageSort="asynchCall" receiveEvent="_p7vwoYPpEeeeps3HyKlvXA" sendEvent="_p7vwoIPpEeeeps3HyKlvXA"/>
+    <message xmi:type="uml:Message" xmi:id="_vBWYgIPpEeeeps3HyKlvXA" name="분석결과 로딩" messageSort="asynchCall" receiveEvent="_vBW_kIPpEeeeps3HyKlvXA" sendEvent="_vBWYgYPpEeeeps3HyKlvXA"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6WzXgJETEee-Y7lD_AlUyg" name="usecasemodell">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_84db8JETEee-Y7lD_AlUyg" name="데이터공급자">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3Isf8JEXEee-Y7lD_AlUyg" general="__cISkJETEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__cISkJETEee-Y7lD_AlUyg" name="로그인">
+    <include xmi:type="uml:Include" xmi:id="_CunaMJEYEee-Y7lD_AlUyg" addition="_DHMPEJEUEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DHMPEJEUEee-Y7lD_AlUyg" name="회원정보변경"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_F67iAJEUEee-Y7lD_AlUyg" name="비밀번호변경"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QWeT0JEUEee-Y7lD_AlUyg" name="마이데이터 조회"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_XWuqgJEUEee-Y7lD_AlUyg" name="데이터 등록"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aVkaMJEUEee-Y7lD_AlUyg" name="데이터분석"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_esYCYJEUEee-Y7lD_AlUyg" name="데이터다운로드"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YVe8UJEVEee-Y7lD_AlUyg" name="UseCase1"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_su7hsJEVEee-Y7lD_AlUyg" name="마이데이터 등록"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x3QGYJEVEee-Y7lD_AlUyg" name="마이데이터 다운로드"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4D2LgJEVEee-Y7lD_AlUyg" name="마이데이터 분석 이뢰"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HsD2gJEWEee-Y7lD_AlUyg" name="분석 방법 선택"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OA__UJEWEee-Y7lD_AlUyg" name="데이터 상품 조회"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UxXf4JEWEee-Y7lD_AlUyg" name="Raw데이터 조회"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YgUd4JEWEee-Y7lD_AlUyg" name="분석결과데이터 조회"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bziiIJEWEee-Y7lD_AlUyg" name="시각화 조회"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EJLJIJEXEee-Y7lD_AlUyg" name="관리자"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_J1wRcJEXEee-Y7lD_AlUyg" name="회원관리"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MX8hYJEXEee-Y7lD_AlUyg" name="데이터 관리"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Yq4SoJEXEee-Y7lD_AlUyg" name="데이터 조회"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dxJB0JEXEee-Y7lD_AlUyg" name="데이터 분석 시작"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_h_ht0JEXEee-Y7lD_AlUyg" name="데이터분석완료"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_k_gF8JEXEee-Y7lD_AlUyg" name="카테고리관리"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pV3pQJEXEee-Y7lD_AlUyg" name=""/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ra8fYJEXEee-Y7lD_AlUyg" name="권한관리"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4ef1QJEXEee-Y7lD_AlUyg" memberEnd="_4ew7AJEXEee-Y7lD_AlUyg _4ezXQJEXEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4ejfoJEXEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4ejfoZEXEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4ew7AJEXEee-Y7lD_AlUyg" name="마이데이터 등록" type="_su7hsJEVEee-Y7lD_AlUyg" association="_4ef1QJEXEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4ezXQJEXEee-Y7lD_AlUyg" name="데이터공급자" type="_84db8JETEee-Y7lD_AlUyg" association="_4ef1QJEXEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8bYhkJEXEee-Y7lD_AlUyg" memberEnd="_8bZIopEXEee-Y7lD_AlUyg _8baWwJEXEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8bZIoJEXEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8bZIoZEXEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8bZIopEXEee-Y7lD_AlUyg" name="로그인" type="__cISkJETEee-Y7lD_AlUyg" association="_8bYhkJEXEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8baWwJEXEee-Y7lD_AlUyg" name="데이터공급자" type="_84db8JETEee-Y7lD_AlUyg" association="_8bYhkJEXEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_91z4MJEXEee-Y7lD_AlUyg" memberEnd="_911GUJEXEee-Y7lD_AlUyg _911GUZEXEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_910fQJEXEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_910fQZEXEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_911GUJEXEee-Y7lD_AlUyg" name="마이데이터 조회" type="_QWeT0JEUEee-Y7lD_AlUyg" association="_91z4MJEXEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_911GUZEXEee-Y7lD_AlUyg" name="데이터공급자" type="_84db8JETEee-Y7lD_AlUyg" association="_91z4MJEXEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_--eJYJEXEee-Y7lD_AlUyg" memberEnd="_--ewcpEXEee-Y7lD_AlUyg _--ewc5EXEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_--ewcJEXEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_--ewcZEXEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_--ewcpEXEee-Y7lD_AlUyg" name="데이터 상품 조회" type="_OA__UJEWEee-Y7lD_AlUyg" association="_--eJYJEXEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_--ewc5EXEee-Y7lD_AlUyg" name="데이터공급자" type="_84db8JETEee-Y7lD_AlUyg" association="_--eJYJEXEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_L5spsJEYEee-Y7lD_AlUyg" memberEnd="_L5t30ZEYEee-Y7lD_AlUyg _L5ue4JEYEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L5tQwJEYEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L5t30JEYEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L5t30ZEYEee-Y7lD_AlUyg" name="분석 방법 선택" type="_HsD2gJEWEee-Y7lD_AlUyg" association="_L5spsJEYEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L5ue4JEYEee-Y7lD_AlUyg" name="마이데이터 분석 이뢰" type="_4D2LgJEVEee-Y7lD_AlUyg" association="_L5spsJEYEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_zOKqcJEfEee-Y7lD_AlUyg" client="_F67iAJEUEee-Y7lD_AlUyg" supplier="__cISkJETEee-Y7lD_AlUyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6UtPUJEfEee-Y7lD_AlUyg" client="_4D2LgJEVEee-Y7lD_AlUyg" supplier="_su7hsJEVEee-Y7lD_AlUyg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iK0LQJEsEee-Y7lD_AlUyg" memberEnd="_iK3OkJEsEee-Y7lD_AlUyg _iK3OkZEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iK2ngJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iK2ngZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iK3OkJEsEee-Y7lD_AlUyg" name="마이데이터 분석 이뢰" type="_4D2LgJEVEee-Y7lD_AlUyg" association="_iK0LQJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iK3OkZEsEee-Y7lD_AlUyg" name="데이터공급자" type="_--eJYJEXEee-Y7lD_AlUyg" association="_iK0LQJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qGdzMJEsEee-Y7lD_AlUyg" memberEnd="_qGg2gJEsEee-Y7lD_AlUyg _qGhdkJEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qGgPcJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qGgPcZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qGg2gJEsEee-Y7lD_AlUyg" name="데이터공급자" type="_84db8JETEee-Y7lD_AlUyg" association="_qGdzMJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qGhdkJEsEee-Y7lD_AlUyg" name="마이데이터 분석 이뢰" type="_4D2LgJEVEee-Y7lD_AlUyg" association="_qGdzMJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tTskMJEsEee-Y7lD_AlUyg" memberEnd="_tTtyUJEsEee-Y7lD_AlUyg _tTtyUZEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tTtLQJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tTtLQZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tTtyUJEsEee-Y7lD_AlUyg" name="권한관리" type="_ra8fYJEXEee-Y7lD_AlUyg" association="_tTskMJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tTtyUZEsEee-Y7lD_AlUyg" name="관리자" type="_EJLJIJEXEee-Y7lD_AlUyg" association="_tTskMJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uOuCAJEsEee-Y7lD_AlUyg" memberEnd="_uOupEpEsEee-Y7lD_AlUyg _uOvQIJEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uOupEJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uOupEZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uOupEpEsEee-Y7lD_AlUyg" name="회원관리" type="_J1wRcJEXEee-Y7lD_AlUyg" association="_uOuCAJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uOvQIJEsEee-Y7lD_AlUyg" type="_tTskMJEsEee-Y7lD_AlUyg" association="_uOuCAJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vKa1QJEsEee-Y7lD_AlUyg" memberEnd="_vKcDYZEsEee-Y7lD_AlUyg _vKcDYpEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vKbcUJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vKcDYJEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vKcDYZEsEee-Y7lD_AlUyg" name="데이터 관리" type="_MX8hYJEXEee-Y7lD_AlUyg" association="_vKa1QJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vKcDYpEsEee-Y7lD_AlUyg" type="_xJl3sJEsEee-Y7lD_AlUyg" association="_vKa1QJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xJl3sJEsEee-Y7lD_AlUyg" memberEnd="_xJmewZEsEee-Y7lD_AlUyg _xJmewpEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xJl3sZEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xJmewJEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xJmewZEsEee-Y7lD_AlUyg" name="관리자" type="_EJLJIJEXEee-Y7lD_AlUyg" association="_xJl3sJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xJmewpEsEee-Y7lD_AlUyg" name="데이터 분석 시작" type="_dxJB0JEXEee-Y7lD_AlUyg" association="_xJl3sJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_12z0wJEsEee-Y7lD_AlUyg" memberEnd="_122RAZEsEee-Y7lD_AlUyg _1224EJEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_121p8JEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_122RAJEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_122RAZEsEee-Y7lD_AlUyg" name="관리자" type="_EJLJIJEXEee-Y7lD_AlUyg" association="_12z0wJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1224EJEsEee-Y7lD_AlUyg" name="회원관리" type="_J1wRcJEXEee-Y7lD_AlUyg" association="_12z0wJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2084AJEsEee-Y7lD_AlUyg" memberEnd="_20-tMJEsEee-Y7lD_AlUyg _20_UQJEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_20-GIJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_20-GIZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_20-tMJEsEee-Y7lD_AlUyg" type="_12z0wJEsEee-Y7lD_AlUyg" association="_2084AJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_20_UQJEsEee-Y7lD_AlUyg" name="데이터 관리" type="_MX8hYJEXEee-Y7lD_AlUyg" association="_2084AJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_35KHAJEsEee-Y7lD_AlUyg" memberEnd="_35LVIpEsEee-Y7lD_AlUyg _35L8MJEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35LVIJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_35LVIZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_35LVIpEsEee-Y7lD_AlUyg" type="_2084AJEsEee-Y7lD_AlUyg" association="_35KHAJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_35L8MJEsEee-Y7lD_AlUyg" name="데이터 조회" type="_Yq4SoJEXEee-Y7lD_AlUyg" association="_35KHAJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_45GhEJEsEee-Y7lD_AlUyg" memberEnd="_45HIIpEsEee-Y7lD_AlUyg _45HvMJEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_45HIIJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_45HIIZEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_45HIIpEsEee-Y7lD_AlUyg" name="관리자" type="_EJLJIJEXEee-Y7lD_AlUyg" association="_45GhEJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_45HvMJEsEee-Y7lD_AlUyg" name="데이터분석완료" type="_h_ht0JEXEee-Y7lD_AlUyg" association="_45GhEJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5x9bsJEsEee-Y7lD_AlUyg" memberEnd="_5x-p0ZEsEee-Y7lD_AlUyg _5x-p0pEsEee-Y7lD_AlUyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5x-CwJEsEee-Y7lD_AlUyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5x-p0JEsEee-Y7lD_AlUyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5x-p0ZEsEee-Y7lD_AlUyg" name="관리자" type="_EJLJIJEXEee-Y7lD_AlUyg" association="_5x9bsJEsEee-Y7lD_AlUyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5x-p0pEsEee-Y7lD_AlUyg" name="카테고리관리" type="_k_gF8JEXEee-Y7lD_AlUyg" association="_5x9bsJEsEee-Y7lD_AlUyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_AdvXMJEtEee-Y7lD_AlUyg" client="_su7hsJEVEee-Y7lD_AlUyg" supplier="_HsD2gJEWEee-Y7lD_AlUyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_CcaDUJEtEee-Y7lD_AlUyg" client="_x3QGYJEVEee-Y7lD_AlUyg" supplier="_QWeT0JEUEee-Y7lD_AlUyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_EkejEJEtEee-Y7lD_AlUyg" client="_UxXf4JEWEee-Y7lD_AlUyg" supplier="_OA__UJEWEee-Y7lD_AlUyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Fd_lAJEtEee-Y7lD_AlUyg" client="_YgUd4JEWEee-Y7lD_AlUyg" supplier="_OA__UJEWEee-Y7lD_AlUyg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_GZ2wUJEtEee-Y7lD_AlUyg" client="_bziiIJEWEee-Y7lD_AlUyg" supplier="_OA__UJEWEee-Y7lD_AlUyg"/>
+</uml:Model>
